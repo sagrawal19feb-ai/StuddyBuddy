@@ -1,0 +1,22 @@
+# ---------------------------------------------------------------------------
+# StudyBuddy - Python dependencies
+#
+# Install with:
+#   python -m pip install -r requirements.txt
+#
+# NOTE: this file deliberately uses NO version operators, so nothing in it
+# can be mangled by HTML-escaping during download. If pip ever still
+# reports an Invalid requirement error, re-download the file or use the
+# direct install command:
+#   python -m pip install rich rapidfuzz requests beautifulsoup4 python-dotenv colorama tabulate
+#
+# Python 3.12+ is required.
+# ---------------------------------------------------------------------------
+
+rich
+rapidfuzz
+requests
+beautifulsoup4
+python-dotenv
+colorama
+tabulate
