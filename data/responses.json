@@ -1,0 +1,107 @@
+{
+  "description": "Response templates for StudyBuddy. Each key maps to a list of variants; one variant is chosen at random (never the same one twice in a row). Placeholders: {name}, {topic}, {greeting}.",
+  "greeting": [
+    "{greeting}, {name}! 😊 I'm your StudyBuddy — ready to make learning easier today?",
+    "Hey {name}! 👋 Great to see you. What shall we learn together?",
+    "{greeting}! 🌟 I've got study tips, quizzes and schedules waiting. What do you need?",
+    "Hello {name}! 💙 How can I help you learn something awesome today?"
+  ],
+  "farewell": [
+    "Goodbye, {name}! 👋 Remember — every minute you study is a step toward your goal. See you soon!",
+    "See you later, {name}! 📚 Keep the momentum going. StudyBuddy will be right here when you're back.",
+    "Bye {name}! 🌟 Consistency beats intensity — see you at the next study session!",
+    "Take care, {name}! 💪 A little study every day goes a long way. Until next time!"
+  ],
+  "thanks": [
+    "Anytime, {name}! 🙌 That's what I'm here for.",
+    "You're welcome! 😊 Happy studying!",
+    "Glad I could help, {name}! 🎉 Need anything else?",
+    "No problem at all! 💙 Let's keep learning!"
+  ],
+  "help": [
+    "Here's what I can do, {name}! 📋 Type any command below or just talk to me naturally."
+  ],
+  "capabilities": [
+    "I can help with: study tips, motivation, schedules, daily plans, quizzes, flashcards, web search, progress tracking and settings. Just tell me what you need."
+  ],
+  "identity": [
+    "I'm **{name}**'s StudyBuddy 🤖 — a study companion for planning, learning and revising. What can I help you with today?",
+    "I'm StudyBuddy — a local program. I can plan schedules, run quizzes and flashcards, remember your progress, and search the web for study material. How can I help, {name}?",
+    "I'm StudyBuddy. I don't call any external service — I match what you say against a knowledge base and a set of study tools. Ask me for tips, a quiz, a schedule, or a web search."
+  ],
+  "smalltalk": [
+    "I'm doing great, {name} — especially now that we're learning together! 😄 How are you?",
+    "Running on caffeine and curiosity! ☕ What's on your mind, {name}?",
+    "All systems green! 🟢 Ready to help you ace your studies. How are you today?"
+  ],
+  "fallback": [
+    "Hmm, I'm not 100% sure about that one, {name}. 🤔 Try asking about a specific subject, or type `help` to see what I can do.",
+    "That's outside my knowledge bank for now! 📚 You could ask me for study tips, a quiz, or tell me to search the web for it.",
+    "Interesting! I don't have a perfect answer yet — but I can search the web for it. Try `search <topic>` or ask me something study-related!",
+    "I want to help! Could you rephrase that? You can also try `help` to see my skills. 😊"
+  ],
+  "thinking": [
+    "Thinking",
+    "Processing",
+    "Let me think"
+  ],
+  "fun": [
+    "Why did the student eat his homework? Because the teacher said it was a piece of cake! 🍰",
+    "Fun fact: the word 'quiz' may have been invented as a bet in 18th-century Dublin — the printer claimed he could introduce a new word in 24 hours. 📖",
+    "Fun fact: honey never spoils — archaeologists have found 3,000-year-old honey that's still edible. 🍯",
+    "Riddle: What has keys but can't open locks? A piano! 🎹",
+    "Fun fact: the Eiffel Tower can be 15 cm taller during hot days because metal expands. 🗼",
+    "Why do programmers prefer dark mode? Because light attracts bugs! 🐛",
+    "Fun fact: octopuses have three hearts and blue blood. 🐙",
+    "Riddle: I speak without a mouth and hear without ears. What am I? An echo! 🗣️"
+  ],
+  "calculate": [
+    "Here's the maths, {name}: **{result}** 🧮",
+    "No problem! That works out to **{result}** ✏️",
+    "Quick calculation done — the answer is **{result}** 🎯"
+  ],
+  "calculate_none": [
+    "I couldn't make sense of that as a calculation — try something like `what is 12*8` or `15% of 200`."
+  ],
+  "remember_saved": [
+    "Got it, {name}! 📝 I'll remember: **{fact}**",
+    "Noted! I've saved that in your study memory: **{fact}** 🧠",
+    "Done! Ask me about it anytime — I'll recall **{fact}**."
+  ],
+  "remember_list": [
+    "Here's everything I'm remembering for you, {name}:"
+  ],
+  "remember_empty": [
+    "I'm not remembering any custom facts yet, {name}. Try: `remember that mitochondria is the powerhouse of the cell` 📝"
+  ],
+  "remember_forgot": [
+    "Okay, I've forgotten that one. 🗑️",
+    "Forgotten! If you change your mind, just tell me again."
+  ],
+  "study_method": [
+    "Here's a study technique that works well for **{topic}**: **{method}** 🎓",
+    "For **{topic}**, I'd recommend: **{method}** 💡"
+  ],
+  "study_method_generic": [
+    "A solid general method: **active recall** — quiz yourself instead of re-reading, review on a spaced schedule (1-3-7-21 days), and use the Pomodoro rhythm of 25-50 focused minutes. 📚",
+    "Try the **Feynman technique**: explain the topic in simple words out loud, find the gaps in your explanation, re-learn them, and simplify again. If you can teach it, you know it. ✨",
+    "Pair **practice problems** with **interleaving** (mix topics in one session) — it builds durable understanding faster than studying one topic for hours."
+  ],
+  "focus_redirect": [
+    "Let's keep the focus on studying! 📚 How about {suggestion}?",
+    "That sounds fun, but you're here to learn — let's make it count! 🎯 {suggestion}?",
+    "Nice try! 😄 I'm a study buddy — {suggestion}?",
+    "Let's get back to the books! 📖 {suggestion}?",
+    "I'm best at helping you study, so {suggestion}?",
+    "Every minute counts toward your goals! ⏳ {suggestion}?",
+    "I'd rather help you ace your exams! 🏆 {suggestion}?",
+    "Let's use this moment wisely 💡 — {suggestion}?",
+    "Quick reality check: your exams won't wait! 😉 {suggestion}?",
+    "Focus is a superpower, {name}! ✨ {suggestion}?"
+  ],
+  "focus_redirect_firm": [
+    "{name}, I've noticed you've tried a few distractions now. 😌 Let's lock in — {suggestion}?",
+    "Okay, that's the **{n}** nudge — you're clearly avoiding something! 😄 What is it about **{weak}** that feels hard? Or {suggestion}?",
+    "I'm not going to play along with distractions, {name} — but I WILL help you make progress. {suggestion}? 💪"
+  ]
+}

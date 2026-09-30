@@ -1,0 +1,929 @@
+{
+  "description": "MCQ question bank for StudyBuddy. Each question has a subject, topic, difficulty (easy/medium/hard), options and the correct answer.",
+  "questions": [
+    {
+      "subject": "Mathematics",
+      "topic": "Algebra",
+      "difficulty": "easy",
+      "question": "What is the value of x in the equation 2x + 6 = 14?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": "4",
+      "explanation": "Subtract 6 from both sides: 2x = 8, then divide by 2: x = 4."
+    },
+    {
+      "subject": "Mathematics",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "question": "If f(x) = x² - 3x + 2, what is f(3)?",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "6"
+      ],
+      "answer": "2",
+      "explanation": "f(3) = 9 - 9 + 2 = 2."
+    },
+    {
+      "subject": "Mathematics",
+      "topic": "Algebra",
+      "difficulty": "hard",
+      "question": "The roots of the equation x² - 5x + 6 = 0 are:",
+      "options": [
+        "2 and 3",
+        "-2 and -3",
+        "1 and 6",
+        "-1 and -6"
+      ],
+      "answer": "2 and 3",
+      "explanation": "x² - 5x + 6 = (x - 2)(x - 3), so roots are 2 and 3."
+    },
+    {
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "difficulty": "easy",
+      "question": "What is the derivative of x² with respect to x?",
+      "options": [
+        "x",
+        "2x",
+        "2",
+        "x²/2"
+      ],
+      "answer": "2x",
+      "explanation": "By the power rule, d/dx(x²) = 2x."
+    },
+    {
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "difficulty": "medium",
+      "question": "What is the value of the definite integral of 2x from 0 to 3?",
+      "options": [
+        "6",
+        "9",
+        "12",
+        "18"
+      ],
+      "answer": "9",
+      "explanation": "∫2x dx = x², evaluated from 0 to 3 gives 9 - 0 = 9."
+    },
+    {
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "difficulty": "easy",
+      "question": "What is the sum of interior angles of a triangle?",
+      "options": [
+        "90°",
+        "180°",
+        "270°",
+        "360°"
+      ],
+      "answer": "180°",
+      "explanation": "The interior angles of any triangle always sum to 180°."
+    },
+    {
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "question": "The area of a circle with radius 7 cm (using π ≈ 22/7) is:",
+      "options": [
+        "154 cm²",
+        "44 cm²",
+        "49 cm²",
+        "308 cm²"
+      ],
+      "answer": "154 cm²",
+      "explanation": "Area = πr² = (22/7) × 49 = 154 cm²."
+    },
+    {
+      "subject": "Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "question": "What is the value of sin 90°?",
+      "options": [
+        "0",
+        "1/2",
+        "1",
+        "√3/2"
+      ],
+      "answer": "1",
+      "explanation": "sin 90° = 1 on the unit circle."
+    },
+    {
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "difficulty": "easy",
+      "question": "The mean of the numbers 4, 8, 6, 10, 2 is:",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": "6",
+      "explanation": "Sum = 30, count = 5, mean = 30/5 = 6."
+    },
+    {
+      "subject": "Mathematics",
+      "topic": "Number Theory",
+      "difficulty": "easy",
+      "question": "Which of the following numbers is prime?",
+      "options": [
+        "15",
+        "21",
+        "23",
+        "27"
+      ],
+      "answer": "23",
+      "explanation": "23 has exactly two divisors: 1 and itself."
+    },
+    {
+      "subject": "Science",
+      "topic": "Physics",
+      "difficulty": "easy",
+      "question": "What is the SI unit of force?",
+      "options": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Pascal"
+      ],
+      "answer": "Newton",
+      "explanation": "Force is measured in Newtons (N): 1 N = 1 kg·m/s²."
+    },
+    {
+      "subject": "Science",
+      "topic": "Physics",
+      "difficulty": "medium",
+      "question": "The speed of light in a vacuum is approximately:",
+      "options": [
+        "3 × 10⁶ m/s",
+        "3 × 10⁸ m/s",
+        "3 × 10¹⁰ m/s",
+        "3 × 10⁵ m/s"
+      ],
+      "answer": "3 × 10⁸ m/s",
+      "explanation": "Light travels at about 299,792,458 m/s ≈ 3 × 10⁸ m/s."
+    },
+    {
+      "subject": "Science",
+      "topic": "Physics",
+      "difficulty": "hard",
+      "question": "Newton's second law states that force equals:",
+      "options": [
+        "mass × velocity",
+        "mass × acceleration",
+        "mass / acceleration",
+        "energy × time"
+      ],
+      "answer": "mass × acceleration",
+      "explanation": "F = ma is Newton's second law of motion."
+    },
+    {
+      "subject": "Science",
+      "topic": "Chemistry",
+      "difficulty": "easy",
+      "question": "What is the chemical symbol for gold?",
+      "options": [
+        "Go",
+        "Gd",
+        "Au",
+        "Ag"
+      ],
+      "answer": "Au",
+      "explanation": "Au comes from 'aurum', the Latin word for gold."
+    },
+    {
+      "subject": "Science",
+      "topic": "Chemistry",
+      "difficulty": "medium",
+      "question": "The chemical formula for water is:",
+      "options": [
+        "CO₂",
+        "H₂O",
+        "O₂",
+        "NaCl"
+      ],
+      "answer": "H₂O",
+      "explanation": "Water is composed of two hydrogen atoms and one oxygen atom."
+    },
+    {
+      "subject": "Science",
+      "topic": "Chemistry",
+      "difficulty": "medium",
+      "question": "Which gas do plants absorb during photosynthesis?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide",
+        "Hydrogen"
+      ],
+      "answer": "Carbon dioxide",
+      "explanation": "Plants take in CO₂ and release O₂ during photosynthesis."
+    },
+    {
+      "subject": "Science",
+      "topic": "Biology",
+      "difficulty": "easy",
+      "question": "What is the powerhouse of the cell?",
+      "options": [
+        "Nucleus",
+        "Ribosome",
+        "Mitochondria",
+        "Golgi body"
+      ],
+      "answer": "Mitochondria",
+      "explanation": "Mitochondria generate most of the cell's ATP energy."
+    },
+    {
+      "subject": "Science",
+      "topic": "Biology",
+      "difficulty": "medium",
+      "question": "How many chromosomes do humans normally have?",
+      "options": [
+        "23",
+        "44",
+        "46",
+        "48"
+      ],
+      "answer": "46",
+      "explanation": "Humans have 23 pairs of chromosomes = 46 total."
+    },
+    {
+      "subject": "Science",
+      "topic": "Biology",
+      "difficulty": "medium",
+      "question": "Photosynthesis primarily occurs in which part of the plant?",
+      "options": [
+        "Roots",
+        "Stem",
+        "Leaves",
+        "Flowers"
+      ],
+      "answer": "Leaves",
+      "explanation": "Chloroplasts in leaf cells carry out photosynthesis."
+    },
+    {
+      "subject": "Science",
+      "topic": "Biology",
+      "difficulty": "hard",
+      "question": "Which blood cells are responsible for fighting infections?",
+      "options": [
+        "Red blood cells",
+        "White blood cells",
+        "Platelets",
+        "Plasma cells"
+      ],
+      "answer": "White blood cells",
+      "explanation": "White blood cells (leukocytes) defend the body against pathogens."
+    },
+    {
+      "subject": "Computer Science",
+      "topic": "Python",
+      "difficulty": "easy",
+      "question": "Which keyword is used to define a function in Python?",
+      "options": [
+        "func",
+        "def",
+        "function",
+        "lambda"
+      ],
+      "answer": "def",
+      "explanation": "Functions are defined with 'def name():'."
+    },
+    {
+      "subject": "Computer Science",
+      "topic": "Python",
+      "difficulty": "medium",
+      "question": "What is the result of 2 raised to the power 3 in Python?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "23"
+      ],
+      "answer": "8",
+      "explanation": "The ** operator in Python means 'to the power of': 2 ** 3 = 8."
+    },
+    {
+      "subject": "Computer Science",
+      "topic": "Python",
+      "difficulty": "hard",
+      "question": "Which data structure in Python is immutable?",
+      "options": [
+        "list",
+        "dict",
+        "set",
+        "tuple"
+      ],
+      "answer": "tuple",
+      "explanation": "Tuples cannot be modified after creation (immutable)."
+    },
+    {
+      "subject": "Computer Science",
+      "topic": "Programming",
+      "difficulty": "easy",
+      "question": "What does 'HTML' stand for?",
+      "options": [
+        "HyperText Markup Language",
+        "HighText Machine Language",
+        "Hyperlink and Text Markup Language",
+        "Home Tool Markup Language"
+      ],
+      "answer": "HyperText Markup Language",
+      "explanation": "HTML is the standard markup language for web pages."
+    },
+    {
+      "subject": "Computer Science",
+      "topic": "Programming",
+      "difficulty": "medium",
+      "question": "What is the time complexity of binary search on a sorted array of n elements?",
+      "options": [
+        "O(n)",
+        "O(n log n)",
+        "O(log n)",
+        "O(1)"
+      ],
+      "answer": "O(log n)",
+      "explanation": "Binary search halves the search space each step: O(log n)."
+    },
+    {
+      "subject": "Computer Science",
+      "topic": "Programming",
+      "difficulty": "hard",
+      "question": "Which of the following is NOT an object-oriented programming principle?",
+      "options": [
+        "Encapsulation",
+        "Inheritance",
+        "Compilation",
+        "Polymorphism"
+      ],
+      "answer": "Compilation",
+      "explanation": "OOP principles are encapsulation, inheritance, polymorphism and abstraction."
+    },
+    {
+      "subject": "Computer Science",
+      "topic": "Databases",
+      "difficulty": "medium",
+      "question": "Which SQL command is used to retrieve data from a database?",
+      "options": [
+        "SELECT",
+        "GET",
+        "OPEN",
+        "EXTRACT"
+      ],
+      "answer": "SELECT",
+      "explanation": "SELECT queries data: SELECT * FROM table;"
+    },
+    {
+      "subject": "History",
+      "topic": "World History",
+      "difficulty": "easy",
+      "question": "In which year did World War II end?",
+      "options": [
+        "1943",
+        "1944",
+        "1945",
+        "1946"
+      ],
+      "answer": "1945",
+      "explanation": "World War II ended in 1945 with the surrender of Germany and Japan."
+    },
+    {
+      "subject": "History",
+      "topic": "Indian History",
+      "difficulty": "easy",
+      "question": "Who was the first Prime Minister of India?",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Sardar Patel",
+        "Dr. Rajendra Prasad"
+      ],
+      "answer": "Jawaharlal Nehru",
+      "explanation": "Jawaharlal Nehru became India's first PM in 1947."
+    },
+    {
+      "subject": "History",
+      "topic": "Indian History",
+      "difficulty": "medium",
+      "question": "In which year did India gain independence from British rule?",
+      "options": [
+        "1945",
+        "1946",
+        "1947",
+        "1948"
+      ],
+      "answer": "1947",
+      "explanation": "India gained independence on 15 August 1947."
+    },
+    {
+      "subject": "History",
+      "topic": "World History",
+      "difficulty": "medium",
+      "question": "Who painted the Mona Lisa?",
+      "options": [
+        "Michelangelo",
+        "Leonardo da Vinci",
+        "Raphael",
+        "Vincent van Gogh"
+      ],
+      "answer": "Leonardo da Vinci",
+      "explanation": "Leonardo da Vinci painted the Mona Lisa in the early 1500s."
+    },
+    {
+      "subject": "History",
+      "topic": "World History",
+      "difficulty": "hard",
+      "question": "The ancient city of Rome was founded, according to legend, in which year?",
+      "options": [
+        "753 BC",
+        "500 BC",
+        "27 BC",
+        "476 AD"
+      ],
+      "answer": "753 BC",
+      "explanation": "Legend dates Rome's founding to 753 BC by Romulus and Remus."
+    },
+    {
+      "subject": "Geography",
+      "topic": "Physical Geography",
+      "difficulty": "easy",
+      "question": "What is the largest ocean on Earth?",
+      "options": [
+        "Atlantic",
+        "Indian",
+        "Arctic",
+        "Pacific"
+      ],
+      "answer": "Pacific",
+      "explanation": "The Pacific Ocean is the largest and deepest ocean."
+    },
+    {
+      "subject": "Geography",
+      "topic": "Physical Geography",
+      "difficulty": "easy",
+      "question": "Which is the longest river in the world?",
+      "options": [
+        "Amazon",
+        "Nile",
+        "Yangtze",
+        "Ganges"
+      ],
+      "answer": "Nile",
+      "explanation": "The Nile is traditionally considered the longest river (~6,650 km)."
+    },
+    {
+      "subject": "Geography",
+      "topic": "Physical Geography",
+      "difficulty": "medium",
+      "question": "The Gobi Desert is located primarily in which two countries?",
+      "options": [
+        "India & Pakistan",
+        "China & Mongolia",
+        "Egypt & Sudan",
+        "Saudi Arabia & Iraq"
+      ],
+      "answer": "China & Mongolia",
+      "explanation": "The Gobi spans northern China and southern Mongolia."
+    },
+    {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "difficulty": "medium",
+      "question": "The Tropic of Cancer passes through how many Indian states?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": "8",
+      "explanation": "It passes through 8 states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, WB, Tripura, Mizoram."
+    },
+    {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "difficulty": "hard",
+      "question": "Which is the highest mountain peak in India?",
+      "options": [
+        "K2",
+        "Kangchenjunga",
+        "Nanda Devi",
+        "Mount Everest"
+      ],
+      "answer": "Kangchenjunga",
+      "explanation": "Kangchenjunga (8,586 m) is the highest peak in India."
+    },
+    {
+      "subject": "General Knowledge",
+      "topic": "Current & General",
+      "difficulty": "easy",
+      "question": "How many continents are there on Earth?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": "7",
+      "explanation": "The seven continents: Asia, Africa, North America, South America, Antarctica, Europe, Australia."
+    },
+    {
+      "subject": "General Knowledge",
+      "topic": "Current & General",
+      "difficulty": "easy",
+      "question": "What is the capital of Australia?",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Perth"
+      ],
+      "answer": "Canberra",
+      "explanation": "Canberra is the capital, not Sydney or Melbourne."
+    },
+    {
+      "subject": "General Knowledge",
+      "topic": "Current & General",
+      "difficulty": "medium",
+      "question": "Which planet is known as the Red Planet?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "answer": "Mars",
+      "explanation": "Mars appears red due to iron oxide (rust) on its surface."
+    },
+    {
+      "subject": "General Knowledge",
+      "topic": "Current & General",
+      "difficulty": "medium",
+      "question": "The Nobel Prize is awarded in how many fields?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": "6",
+      "explanation": "Physics, Chemistry, Medicine, Literature, Peace and Economic Sciences."
+    },
+    {
+      "subject": "General Knowledge",
+      "topic": "Current & General",
+      "difficulty": "hard",
+      "question": "Which element has the chemical symbol 'Fe'?",
+      "options": [
+        "Fluorine",
+        "Francium",
+        "Iron",
+        "Fermium"
+      ],
+      "answer": "Iron",
+      "explanation": "Fe comes from 'ferrum', the Latin word for iron."
+    },
+    {
+      "subject": "English",
+      "topic": "Grammar",
+      "difficulty": "easy",
+      "question": "Choose the correct sentence:",
+      "options": [
+        "She don't like tea.",
+        "She doesn't likes tea.",
+        "She doesn't like tea.",
+        "She don't likes tea."
+      ],
+      "answer": "She doesn't like tea.",
+      "explanation": "Third person singular needs 'doesn't' + base verb."
+    },
+    {
+      "subject": "English",
+      "topic": "Grammar",
+      "difficulty": "medium",
+      "question": "Which word is a synonym of 'happy'?",
+      "options": [
+        "Sorrowful",
+        "Joyful",
+        "Angry",
+        "Tired"
+      ],
+      "answer": "Joyful",
+      "explanation": "'Joyful' means full of happiness."
+    },
+    {
+      "subject": "English",
+      "topic": "Vocabulary",
+      "difficulty": "medium",
+      "question": "What is the antonym of 'ancient'?",
+      "options": [
+        "Old",
+        "Modern",
+        "Historic",
+        "Aged"
+      ],
+      "answer": "Modern",
+      "explanation": "The opposite of ancient is modern/contemporary."
+    },
+    {
+      "subject": "English",
+      "topic": "Literature",
+      "difficulty": "hard",
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "options": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Jane Austen",
+        "Mark Twain"
+      ],
+      "answer": "William Shakespeare",
+      "explanation": "Shakespeare wrote Romeo and Juliet around 1597."
+    },
+    {
+      "subject": "Economics",
+      "topic": "Basics",
+      "difficulty": "easy",
+      "question": "What does GDP stand for?",
+      "options": [
+        "Gross Domestic Product",
+        "General Development Plan",
+        "Gross Domestic Price",
+        "Global Domestic Product"
+      ],
+      "answer": "Gross Domestic Product",
+      "explanation": "GDP is the total value of all goods and services produced in a country in a year."
+    },
+    {
+      "subject": "Economics",
+      "topic": "Basics",
+      "difficulty": "easy",
+      "question": "If demand increases and supply stays the same, what happens to the price?",
+      "options": [
+        "It rises",
+        "It falls",
+        "It stays constant",
+        "It disappears"
+      ],
+      "answer": "It rises",
+      "explanation": "Scarcity pushes prices up when demand outpaces supply."
+    },
+    {
+      "subject": "Economics",
+      "topic": "Basics",
+      "difficulty": "medium",
+      "question": "Which of these is a direct tax?",
+      "options": [
+        "Income tax",
+        "GST",
+        "Excise duty",
+        "Sales tax"
+      ],
+      "answer": "Income tax",
+      "explanation": "Income tax is paid directly on income; GST and excise are indirect taxes on goods and services."
+    },
+    {
+      "subject": "Economics",
+      "topic": "Basics",
+      "difficulty": "easy",
+      "question": "A person who buys goods and services is called a:",
+      "options": [
+        "Consumer",
+        "Producer",
+        "Retailer",
+        "Wholesaler"
+      ],
+      "answer": "Consumer",
+      "explanation": "The consumer is the end user who purchases goods or services."
+    },
+    {
+      "subject": "Economics",
+      "topic": "Banking",
+      "difficulty": "medium",
+      "question": "What is the central bank of India?",
+      "options": [
+        "Reserve Bank of India",
+        "State Bank of India",
+        "SEBI",
+        "NABARD"
+      ],
+      "answer": "Reserve Bank of India",
+      "explanation": "The RBI controls monetary policy and issues currency."
+    },
+    {
+      "subject": "Economics",
+      "topic": "Basics",
+      "difficulty": "easy",
+      "question": "Money earned from work or investments is called:",
+      "options": [
+        "Income",
+        "Expenditure",
+        "Saving",
+        "Liability"
+      ],
+      "answer": "Income",
+      "explanation": "Income is money received; expenditure is money spent."
+    },
+    {
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "question": "What is the area of a triangle with base 6 and height 4?",
+      "options": [
+        "12",
+        "24",
+        "10",
+        "14"
+      ],
+      "answer": "12",
+      "explanation": "Area = ½ × base × height = ½ × 6 × 4 = 12."
+    },
+    {
+      "subject": "Mathematics",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "question": "Solve for x: 3x - 7 = 8",
+      "options": [
+        "x = 5",
+        "x = 3",
+        "x = 15",
+        "x = 1"
+      ],
+      "answer": "x = 5",
+      "explanation": "3x = 15, so x = 5."
+    },
+    {
+      "subject": "Science",
+      "topic": "Biology",
+      "difficulty": "easy",
+      "question": "Which gas do humans breathe out?",
+      "options": [
+        "Carbon dioxide",
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": "Carbon dioxide",
+      "explanation": "Respiration produces carbon dioxide, which we exhale."
+    },
+    {
+      "subject": "Science",
+      "topic": "Physics",
+      "difficulty": "medium",
+      "question": "What is the SI unit of energy?",
+      "options": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Pascal"
+      ],
+      "answer": "Joule",
+      "explanation": "The joule (J) is the SI unit of energy and work."
+    },
+    {
+      "subject": "Science",
+      "topic": "Physics",
+      "difficulty": "medium",
+      "question": "Which part of the eye controls the amount of light entering?",
+      "options": [
+        "Iris",
+        "Retina",
+        "Cornea",
+        "Sclera"
+      ],
+      "answer": "Iris",
+      "explanation": "The iris widens and narrows the pupil to control light."
+    },
+    {
+      "subject": "History",
+      "topic": "Indian History",
+      "difficulty": "medium",
+      "question": "In which city did the Revolt of 1857 begin?",
+      "options": [
+        "Meerut",
+        "Delhi",
+        "Kanpur",
+        "Lucknow"
+      ],
+      "answer": "Meerut",
+      "explanation": "The sepoy mutiny began at Meerut on 10 May 1857."
+    },
+    {
+      "subject": "History",
+      "topic": "Indian History",
+      "difficulty": "easy",
+      "question": "Who founded the Mughal Empire in India?",
+      "options": [
+        "Babur",
+        "Akbar",
+        "Humayun",
+        "Aurangzeb"
+      ],
+      "answer": "Babur",
+      "explanation": "Babur founded the Mughal Empire after the Battle of Panipat in 1526."
+    },
+    {
+      "subject": "Geography",
+      "topic": "Physical Geography",
+      "difficulty": "medium",
+      "question": "Which is the largest hot desert in the world?",
+      "options": [
+        "Sahara",
+        "Thar",
+        "Gobi",
+        "Kalahari"
+      ],
+      "answer": "Sahara",
+      "explanation": "The Sahara in Africa is the largest hot desert."
+    },
+    {
+      "subject": "Geography",
+      "topic": "Indian Geography",
+      "difficulty": "medium",
+      "question": "Which strait separates India from Sri Lanka?",
+      "options": [
+        "Palk Strait",
+        "Malacca Strait",
+        "Gibraltar",
+        "Bering Strait"
+      ],
+      "answer": "Palk Strait",
+      "explanation": "The Palk Strait lies between Tamil Nadu and Sri Lanka."
+    },
+    {
+      "subject": "General Knowledge",
+      "topic": "Sports",
+      "difficulty": "easy",
+      "question": "How many players are in a cricket team?",
+      "options": [
+        "11",
+        "9",
+        "10",
+        "12"
+      ],
+      "answer": "11",
+      "explanation": "A cricket team fields 11 players."
+    },
+    {
+      "subject": "General Knowledge",
+      "topic": "Personalities",
+      "difficulty": "easy",
+      "question": "Who is known as the Missile Man of India?",
+      "options": [
+        "A.P.J. Abdul Kalam",
+        "Vikram Sarabhai",
+        "Homi Bhabha",
+        "C.V. Raman"
+      ],
+      "answer": "A.P.J. Abdul Kalam",
+      "explanation": "Dr. Kalam was a key architect of India's missile and space programs."
+    },
+    {
+      "subject": "English",
+      "topic": "Spelling",
+      "difficulty": "medium",
+      "question": "Choose the correctly spelled word:",
+      "options": [
+        "Accommodation",
+        "Acommodation",
+        "Accomodation",
+        "Acomodation"
+      ],
+      "answer": "Accommodation",
+      "explanation": "'Accommodation' has double c and double m."
+    },
+    {
+      "subject": "Computer Science",
+      "topic": "Programming",
+      "difficulty": "medium",
+      "question": "Which of these is NOT a programming language?",
+      "options": [
+        "HTML",
+        "Python",
+        "C",
+        "Java"
+      ],
+      "answer": "HTML",
+      "explanation": "HTML is a markup language for structuring web pages, not a programming language."
+    },
+    {
+      "subject": "Computer Science",
+      "topic": "Web Development",
+      "difficulty": "easy",
+      "question": "What does CSS stand for?",
+      "options": [
+        "Cascading Style Sheets",
+        "Computer Style Sheets",
+        "Creative Style Sheets",
+        "Cascading Simple Sheets"
+      ],
+      "answer": "Cascading Style Sheets",
+      "explanation": "CSS styles the layout and look of web pages."
+    }
+  ]
+}

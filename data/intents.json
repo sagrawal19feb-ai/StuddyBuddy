@@ -1,1 +1,794 @@
-
+{
+  "description": "Intent definitions for StudyBuddy. Each intent lists trigger keywords (multi-word phrases are matched as substrings; single words are fuzzy-matched) and example user phrases used for documentation and testing.",
+  "intents": [
+    {
+      "name": "greeting",
+      "keywords": [
+        "hello",
+        "hi",
+        "hey",
+        "hey there",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "namaste",
+        "yo",
+        "hola",
+        "hiya",
+        "greetings",
+        "whats up",
+        "what is up",
+        "sup",
+        "howdy"
+      ],
+      "examples": [
+        "hello there",
+        "hi StudyBuddy",
+        "good morning!",
+        "hey, can you help me?"
+      ]
+    },
+    {
+      "name": "farewell",
+      "keywords": [
+        "bye",
+        "goodbye",
+        "see you",
+        "see ya",
+        "good night",
+        "quit",
+        "exit",
+        "i am leaving",
+        "i am done",
+        "that is all",
+        "talk to you later",
+        "take care",
+        "gotta go",
+        "got to go",
+        "cya",
+        "see u",
+        "peace"
+      ],
+      "examples": [
+        "bye bye",
+        "goodbye!",
+        "see you tomorrow",
+        "i am going to study now"
+      ]
+    },
+    {
+      "name": "thanks",
+      "keywords": [
+        "thank you",
+        "thanks",
+        "thx",
+        "thank u",
+        "appreciate it",
+        "thanks a lot",
+        "thank you so much",
+        "thanks so much",
+        "much appreciated"
+      ],
+      "examples": [
+        "thanks a lot",
+        "thank you for the help",
+        "thx!"
+      ]
+    },
+    {
+      "name": "help",
+      "keywords": [
+        "help",
+        "help me",
+        "commands",
+        "menu",
+        "what can you do",
+        "show help",
+        "options",
+        "how do i use",
+        "how to use",
+        "help menu",
+        "list of commands",
+        "what are the commands"
+      ],
+      "examples": [
+        "help",
+        "what commands do you have?",
+        "show me the menu",
+        "how do i use you?"
+      ]
+    },
+    {
+      "name": "capabilities",
+      "keywords": [
+        "features",
+        "capabilities",
+        "what do you have",
+        "your features",
+        "list features",
+        "abilities",
+        "skills",
+        "what can you offer"
+      ],
+      "examples": [
+        "what features do you have?",
+        "list your capabilities",
+        "what can i do with you"
+      ]
+    },
+    {
+      "name": "identity",
+      "keywords": [
+        "who are you",
+        "what are you",
+        "your name",
+        "about you",
+        "introduce yourself",
+        "who made you",
+        "are you a bot",
+        "are you human",
+        "what is your name",
+        "tell me about yourself",
+        "which ai model",
+        "what ai model",
+        "what model are you",
+        "which model",
+        "are you chatgpt",
+        "are you gpt",
+        "are you ai",
+        "how are you built",
+        "are you an ai",
+        "who created you"
+      ],
+      "examples": [
+        "who are you?",
+        "what are you?",
+        "tell me about yourself",
+        "are you a robot?"
+      ]
+    },
+    {
+      "name": "smalltalk",
+      "keywords": [
+        "how are you",
+        "how are you doing",
+        "whats up",
+        "how do you feel",
+        "are you ok",
+        "how is it going",
+        "you okay",
+        "hows it going",
+        "how are you today"
+      ],
+      "examples": [
+        "how are you?",
+        "how's your day going?",
+        "are you okay?"
+      ]
+    },
+    {
+      "name": "study_tips",
+      "keywords": [
+        "study tips",
+        "tip for studying",
+        "study tip",
+        "how to study",
+        "study advice",
+        "study technique",
+        "tips to study",
+        "revision tips",
+        "how should i study",
+        "exam tips",
+        "exam advice",
+        "study methods",
+        "study skills",
+        "how do i study better",
+        "how to study better",
+        "study better",
+        "how to study effectively",
+        "improve my studies",
+        "how do i improve my studies",
+        "effective study"
+      ],
+      "examples": [
+        "give me a study tip",
+        "how should I study for exams?",
+        "study tips please",
+        "best study technique"
+      ]
+    },
+    {
+      "name": "motivation",
+      "keywords": [
+        "motivate",
+        "motivation",
+        "encourage",
+        "inspire me",
+        "cheer me up",
+        "i am tired",
+        "i feel lazy",
+        "i am demotivated",
+        "i feel stressed",
+        "boost my mood",
+        "quote",
+        "inspirational",
+        "make me feel better",
+        "i am bored",
+        "i am frustrated",
+        "keep going",
+        "give me motivation",
+        "i am stressed",
+        "stressed about exams",
+        "i do not feel like studying",
+        "i feel like giving up",
+        "give up",
+        "not motivated",
+        "i feel down",
+        "i am feeling low",
+        "lazy today",
+        "not in the mood",
+        "not in the mood to study",
+        "not in the mood to learn",
+        "no mood",
+        "i have no motivation"
+      ],
+      "examples": [
+        "motivate me",
+        "I feel so lazy today",
+        "give me inspiration",
+        "I'm stressed about exams"
+      ]
+    },
+    {
+      "name": "study_help",
+      "keywords": [
+        "i need help",
+        "help me with",
+        "help with",
+        "i do not understand",
+        "i am stuck",
+        "i can not understand",
+        "explain to me",
+        "teach me",
+        "learn",
+        "i want to learn",
+        "study",
+        "revision",
+        "i have doubt",
+        "doubt",
+        "explain",
+        "clarify",
+        "struggling with",
+        "confused about",
+        "help me study",
+        "help me learn",
+        "help me prepare",
+        "i do not get",
+        "i do not know",
+        "can you teach me",
+        "stuck on",
+        "i am struggling",
+        "explain this to me",
+        "i do not understand this topic",
+        "how to do",
+        "how do i do",
+        "how to solve",
+        "how do i solve",
+        "how do i figure"
+      ],
+      "examples": [
+        "i need help in maths",
+        "help me with physics",
+        "i don't understand calculus",
+        "teach me biology",
+        "i have a doubt in chemistry"
+      ]
+    },
+    {
+      "name": "schedule",
+      "keywords": [
+        "make a schedule",
+        "study schedule",
+        "timetable",
+        "make a timetable",
+        "study plan",
+        "plan my studies",
+        "schedule",
+        "plan my week",
+        "weekly plan",
+        "time table",
+        "routine for exams",
+        "exam schedule",
+        "plan for exam",
+        "divide my time",
+        "how should i divide my time",
+        "plan my time",
+        "study routine",
+        "make a routine",
+        "create a schedule",
+        "plan my revision",
+        "revision plan"
+      ],
+      "examples": [
+        "make me a study schedule",
+        "create a timetable for exams",
+        "plan my week",
+        "i need a study plan"
+      ]
+    },
+    {
+      "name": "daily_plan",
+      "keywords": [
+        "daily plan",
+        "plan my day",
+        "daily routine",
+        "routine",
+        "plan today",
+        "todays plan",
+        "today plan",
+        "my day",
+        "daily schedule",
+        "plan for today",
+        "what should i do today",
+        "how should i spend my day",
+        "what is my routine"
+      ],
+      "examples": [
+        "make a daily plan",
+        "plan my day",
+        "what should my routine be",
+        "plan today for me"
+      ]
+    },
+    {
+      "name": "quiz",
+      "keywords": [
+        "quiz",
+        "test me",
+        "mcq",
+        "practice questions",
+        "give me a test",
+        "question me",
+        "take a quiz",
+        "multiple choice",
+        "exam practice",
+        "mock test",
+        "lets quiz",
+        "start a quiz",
+        "quiz me",
+        "give me a quiz",
+        "i want to take a test",
+        "take a test",
+        "test my knowledge",
+        "ask me some questions",
+        "ask me questions",
+        "pop quiz",
+        "sample questions",
+        "practice test",
+        "ask me something",
+        "give me questions",
+        "test me on"
+      ],
+      "examples": [
+        "start a quiz",
+        "test me on maths",
+        "give me mcqs",
+        "I want to practice"
+      ]
+    },
+    {
+      "name": "flashcards",
+      "keywords": [
+        "flashcard",
+        "flash cards",
+        "flashcards",
+        "card revision",
+        "revision cards",
+        "study cards",
+        "memorize",
+        "memorise",
+        "recall practice",
+        "revise with cards",
+        "revision with cards",
+        "study with cards",
+        "make cards",
+        "flashcard review",
+        "make flashcards",
+        "i want to revise with cards"
+      ],
+      "examples": [
+        "let's do flashcards",
+        "make flashcards for chemistry",
+        "help me memorize this"
+      ]
+    },
+    {
+      "name": "knowledge",
+      "keywords": [
+        "tell me about",
+        "meaning of",
+        "difference between",
+        "example of",
+        "definition",
+        "facts",
+        "who wrote",
+        "who invented",
+        "who discovered",
+        "who founded",
+        "who created",
+        "who built",
+        "why does",
+        "how does",
+        "when was",
+        "when did",
+        "what does",
+        "what happened",
+        "what was",
+        "where is",
+        "where was",
+        "which is",
+        "who is known as",
+        "who is the",
+        "what is the",
+        "who was the",
+        "what is",
+        "what are",
+        "why is",
+        "why do",
+        "who is",
+        "how is",
+        "define",
+        "explain"
+      ],
+      "examples": [
+        "what is photosynthesis?",
+        "define gravity",
+        "who discovered penicillin",
+        "what is the difference between dna and rna"
+      ]
+    },
+    {
+      "name": "search",
+      "keywords": [
+        "search",
+        "find notes",
+        "notes for",
+        "notes on",
+        "tutorial",
+        "pdf",
+        "look up",
+        "google",
+        "find resources",
+        "web search",
+        "study material",
+        "download",
+        "video for",
+        "lecture on",
+        "online class",
+        "documentation for",
+        "find me",
+        "get me",
+        "search for",
+        "search the web"
+      ],
+      "examples": [
+        "search python loops",
+        "find notes for biology",
+        "need java tutorial",
+        "search calculus pdf",
+        "look up cell structure"
+      ]
+    },
+    {
+      "name": "progress",
+      "keywords": [
+        "progress",
+        "my stats",
+        "statistics",
+        "how am i doing",
+        "my performance",
+        "track my progress",
+        "achievements",
+        "report",
+        "dashboard",
+        "my score",
+        "streak",
+        "study streak",
+        "my streak",
+        "am i on track",
+        "on track",
+        "how far am i",
+        "am i ready",
+        "how am i performing",
+        "my progress"
+      ],
+      "examples": [
+        "show my progress",
+        "how am I doing?",
+        "my study stats",
+        "show achievements"
+      ]
+    },
+    {
+      "name": "settings",
+      "keywords": [
+        "settings",
+        "preferences",
+        "change theme",
+        "change name",
+        "customize",
+        "customise",
+        "change settings",
+        "setup",
+        "prefs",
+        "my preferences",
+        "change my settings"
+      ],
+      "examples": [
+        "open settings",
+        "change my preferences",
+        "i want to change theme"
+      ]
+    },
+    {
+      "name": "profile",
+      "keywords": [
+        "my profile",
+        "who am i",
+        "profile",
+        "show profile",
+        "my details",
+        "saved info",
+        "my subjects",
+        "what do you know about me",
+        "show my profile"
+      ],
+      "examples": [
+        "show my profile",
+        "what do you know about me?",
+        "my details please"
+      ]
+    },
+    {
+      "name": "history",
+      "keywords": [
+        "history",
+        "chat history",
+        "conversation history",
+        "previous chat",
+        "old messages",
+        "chat log",
+        "show history",
+        "past conversation",
+        "what did we talk about"
+      ],
+      "examples": [
+        "show my chat history",
+        "what did we talk about",
+        "show previous messages"
+      ]
+    },
+    {
+      "name": "fun",
+      "keywords": [
+        "joke",
+        "fun fact",
+        "make me laugh",
+        "tell me a joke",
+        "funny",
+        "play a game",
+        "riddle"
+      ],
+      "examples": [
+        "tell me a joke",
+        "fun fact please",
+        "give me a riddle"
+      ]
+    },
+    {
+      "name": "calculate",
+      "keywords": [
+        "calculate",
+        "compute",
+        "how much is",
+        "work out",
+        "percent of",
+        "% of",
+        "square root",
+        "sqrt",
+        "multiply",
+        "divide",
+        "add",
+        "subtract",
+        "minus",
+        "plus",
+        "times"
+      ],
+      "examples": [
+        "what is 12*8",
+        "calculate 15% of 200",
+        "whats 2 to the power 10",
+        "square root of 144"
+      ]
+    },
+    {
+      "name": "remember",
+      "keywords": [
+        "remember that",
+        "remember this",
+        "remember:",
+        "note that",
+        "note:",
+        "take note",
+        "save this fact",
+        "memorize this",
+        "what do you remember",
+        "forget that",
+        "forget",
+        "note down",
+        "note this",
+        "take a note",
+        "write this down",
+        "jot down",
+        "save this",
+        "save that",
+        "remember this for me",
+        "save my note"
+      ],
+      "examples": [
+        "remember that mitochondria is the powerhouse of the cell",
+        "what do you remember?",
+        "forget that fact"
+      ]
+    },
+    {
+      "name": "study_method",
+      "keywords": [
+        "study method",
+        "recommend a method",
+        "suggest a technique",
+        "best way to study",
+        "study technique",
+        "how should i revise",
+        "revision method",
+        "technique for",
+        "method for",
+        "how do i memorize",
+        "how to memorize",
+        "effective way to study",
+        "study smarter",
+        "best way to revise",
+        "how to revise",
+        "how to remember",
+        "revision technique",
+        "how do i revise",
+        "how to learn faster",
+        "memorize faster"
+      ],
+      "examples": [
+        "recommend a study method for history",
+        "best way to study maths",
+        "how should I revise for exams"
+      ]
+    },
+    {
+      "name": "elaborate",
+      "keywords": [
+        "tell me more",
+        "tell me more about",
+        "more details",
+        "more detail",
+        "elaborate",
+        "explain further",
+        "go deeper",
+        "expand on",
+        "in detail",
+        "more information",
+        "more info",
+        "give me more",
+        "dig deeper",
+        "what else can you tell me",
+        "tell me more about it",
+        "explain in detail"
+      ],
+      "examples": [
+        "tell me more about gravity",
+        "more details on photosynthesis",
+        "elaborate please",
+        "tell me more"
+      ]
+    },
+    {
+      "name": "distraction",
+      "keywords": [
+        "recommend a movie",
+        "movie",
+        "film",
+        "netflix",
+        "what is the weather",
+        "weather today",
+        "forecast",
+        "sing a song",
+        "play a song",
+        "favourite movie",
+        "favorite movie",
+        "favourite colour",
+        "favorite color",
+        "favourite food",
+        "favorite food",
+        "horoscope",
+        "astrology",
+        "meme",
+        "memes",
+        "gossip",
+        "live score",
+        "match score",
+        "cricket score",
+        "instagram",
+        "tiktok",
+        "whatsapp",
+        "tell me a story",
+        "story for me",
+        "recommend a song",
+        "weather",
+        "play a game with me",
+        "sing for me"
+      ],
+      "examples": [
+        "recommend a movie",
+        "what is the weather",
+        "sing a song",
+        "tell me a story"
+      ]
+    },
+    {
+      "name": "context",
+      "keywords": [
+        "what were we doing",
+        "where was i",
+        "what did we discuss",
+        "recap",
+        "give me a recap",
+        "what was i studying",
+        "context",
+        "what next",
+        "where did we leave off",
+        "continue where we left",
+        "summary of our chat",
+        "what have we done",
+        "where are we",
+        "what should i do next"
+      ],
+      "examples": [
+        "what were we doing",
+        "give me a recap",
+        "where did we leave off"
+      ]
+    },
+    {
+      "name": "reset",
+      "keywords": [
+        "reset",
+        "reset everything",
+        "reset all",
+        "reset my data",
+        "reset all my data",
+        "reset my progress",
+        "start over",
+        "start fresh",
+        "fresh start",
+        "delete my data",
+        "clear my data",
+        "wipe my data",
+        "erase my data",
+        "delete all my data",
+        "restart the app"
+      ],
+      "examples": [
+        "reset everything",
+        "start over",
+        "delete my data"
+      ]
+    }
+  ]
+}

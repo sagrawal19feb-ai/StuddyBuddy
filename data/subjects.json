@@ -1,0 +1,159 @@
+{
+  "description": "Subject metadata for StudyBuddy: canonical topics per subject and a difficulty rating (1-5). Used by the topic-choice flow, intent detection and the study planner.",
+  "Mathematics": {
+    "difficulty": 4,
+    "topics": [
+      "Algebra",
+      "Calculus",
+      "Geometry",
+      "Trigonometry",
+      "Statistics",
+      "Probability",
+      "Number Theory",
+      "Coordinate Geometry",
+      "Matrices",
+      "Vectors"
+    ],
+    "method": "practice-based learning: solve a few problems daily, keep a mistake notebook, and re-derive formulas from memory before checking them."
+  },
+  "Maths": {
+    "difficulty": 4,
+    "topics": [
+      "Algebra",
+      "Calculus",
+      "Geometry",
+      "Trigonometry",
+      "Statistics",
+      "Probability",
+      "Number Theory",
+      "Coordinate Geometry",
+      "Matrices",
+      "Vectors"
+    ],
+    "method": "practice-based learning: solve a few problems daily, keep a mistake notebook, and re-derive formulas from memory before checking them."
+  },
+  "Science": {
+    "difficulty": 3,
+    "topics": [
+      "Physics",
+      "Chemistry",
+      "Biology",
+      "Environmental Science",
+      "Scientific Method"
+    ],
+    "method": "experiment-first learning: connect every concept to a real phenomenon, then use active recall and practice questions to lock it in."
+  },
+  "Physics": {
+    "difficulty": 4,
+    "topics": [
+      "Mechanics",
+      "Optics",
+      "Electricity & Magnetism",
+      "Thermodynamics",
+      "Waves & Sound",
+      "Modern Physics",
+      "Kinematics",
+      "Laws of Motion"
+    ],
+    "method": "concept-first practice: learn each law with a real example, then solve problems step by step, and explain the concept out loud (Feynman technique)."
+  },
+  "Chemistry": {
+    "difficulty": 3,
+    "topics": [
+      "Atomic Structure",
+      "Chemical Bonding",
+      "Organic Chemistry",
+      "Periodic Table",
+      "Acids, Bases & Salts",
+      "Chemical Reactions",
+      "Thermochemistry"
+    ],
+    "method": "active recall with mnemonics: turn reactions and properties into flashcards, review on a spaced schedule, and practise balancing equations by hand."
+  },
+  "Biology": {
+    "difficulty": 3,
+    "topics": [
+      "Cell Biology",
+      "Genetics",
+      "Human Physiology",
+      "Photosynthesis",
+      "Evolution",
+      "Ecology",
+      "Microbiology",
+      "Plant Physiology"
+    ],
+    "method": "spaced repetition + diagrams: draw each process (e.g. photosynthesis), label it from memory, and use flashcards with a 1-3-7-21 review rhythm."
+  },
+  "Computer Science": {
+    "difficulty": 3,
+    "topics": [
+      "Python Programming",
+      "Data Structures",
+      "Algorithms",
+      "Databases",
+      "Web Development",
+      "Operating Systems",
+      "Networks",
+      "Artificial Intelligence"
+    ],
+    "method": "project-based learning: learn a concept, then immediately build a tiny project or solve a coding problem with it — and read the official docs."
+  },
+  "Programming": {
+    "difficulty": 3,
+    "topics": [
+      "Python",
+      "Java",
+      "C Programming",
+      "HTML & CSS",
+      "JavaScript",
+      "OOP Concepts",
+      "Problem Solving"
+    ],
+    "method": "build small projects: after every tutorial, write your own version, break it, fix it, and teach it to someone else."
+  },
+  "History": {
+    "difficulty": 2,
+    "topics": [
+      "Indian History",
+      "World History",
+      "Ancient Civilisations",
+      "Modern History",
+      "Freedom Struggle"
+    ],
+    "method": "story method + timelines: turn events into a narrative, make a timeline, and use flashcards for dates and key figures."
+  },
+  "Geography": {
+    "difficulty": 2,
+    "topics": [
+      "Physical Geography",
+      "Indian Geography",
+      "World Geography",
+      "Maps & Globes",
+      "Climate & Weather"
+    ],
+    "method": "map-based learning: sketch maps from memory, link physical features to real places, and use mnemonics for facts like capitals and rivers."
+  },
+  "English": {
+    "difficulty": 2,
+    "topics": [
+      "Grammar",
+      "Vocabulary",
+      "Comprehension",
+      "Essay Writing",
+      "Literature",
+      "Spelling & Pronunciation"
+    ],
+    "method": "read, write, revise: read daily, keep a vocabulary notebook, write short summaries, and practise grammar with self-quizzes."
+  },
+  "General Knowledge": {
+    "difficulty": 2,
+    "topics": [
+      "Current Affairs",
+      "World Records",
+      "Famous Personalities",
+      "Flags & Countries",
+      "Inventions"
+    ],
+    "method": "quiz-and-question method: test yourself daily with MCQs, make flashcards for new facts, and connect facts to stories you already know."
+  }
+}
